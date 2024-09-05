@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+        
+    </header>
+    
+    <div class="container">
+        <br><br><br>
+        <div class="esq">
+          <h1>Biblioteca</h1>
+          <img src ="img/logo_imersao_dev_gemini.webp" alt="Descrição da imagem"><br><br><br>
+          <h2>Um guia pratico e rápido com as principais tecnologias estudadas nessa imersão. 
+          </h2><br><br>
+          <h3>  Vamos além! Na nossa biblioteca é possível pesquisar sobre as 3 linguagem estudadas. Contamos com um acervo com as principais tags, funções e estilizações. </h3>
+          </h2><br><br><br>
+          <h4>Está com alguma duvida? Basta pesquisar abaixo</h4>
+        </div>
+        
+        <div class="dir"> 
+          
+        </div>
+
+    </div>
+   
+    
+    <div id="subContainer">
+      <div id="container">
+        <div class="tab-buttons">
+          <button class="tab-btn active" content-id="html">HTML</button>
+          <button class="tab-btn" content-id="css">css</button>
+          <button class="tab-btn active" content-id="html">javaScript</button>
+        </div>
+
+        <div class="tab-contents">
+          <div class="content" id="html">
+            <H2>HTML</H2>
+            <h3>HTML é a linguagem básica usada para criar páginas da web. É como se fosse o esqueleto de um site, definindo a estrutura e o conteúdo de cada página.</h3></br>
+            <div class="search">
+              <input type="text" placeholder="Pesquise alguma tag, termo, elemento ou função" />
+              <button onclick="pesquisar()">Pesquisar</button>
+            </div>
+            <section class="resultadosPesquisa" id="resultadosPesquisa">
+            </section>     
+            </div>
+          </div>
+
+          <div class="tab-contents">
+            <div class="content" id="html">
+              <H2>CSS</H2>
+              <h3>HTML é a linguagem básica usada para criar páginas da web. É como se fosse o esqueleto de um site, definindo a estrutura e o conteúdo de cada página.
+              </h3>
+              <div class="search">
+                <input type="text" placeholder="Pesquise alguma tag, termo, elemento ou função" />
+                <button onclick="pesquisar()">Pesquisar</button>
+              </div>
+              <section class="resultadosPesquisa" id="resultadosPesquisa">
+              </section>     
+              </div>
+            </div>
+
+          <div class="content" id="css">
+            <div class="infos">
+              <div class="search">
+                <input type="text" placeholder="Pesquise alguma tag, termo, elemento ou função" />
+                <button onclick="pesquisar()">Pesquisar</button>
+              </div>
+              <h1 class="content-title">HTML</h1>
+              <p class="content-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Corporis, repellat! Id ab similique velit, molestiae, aliquam
+                illum officiis sit totam rem voluptas magnam, atque dicta magni
+                perferendis recusandae reiciendis necessitatibus!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    <footer></footer>
+
+    <script src="script.js"></script>
+    <script src="dados.js"></script>
+  </body>
+</html>
